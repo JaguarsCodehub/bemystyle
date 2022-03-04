@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+  .details .img-container{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .details .img-container:hover{
+    background-size: 150%;
+    border: 1px solid #ddd;
+    cursor: zoom-in;
+  }
+  
+  .box-details{
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+  }
+  .box-details h2{
+    text-transform: uppercase;
+    color: rgb(219, 0, 91);
+    letter-spacing: 2px;
+    font-size: 2rem;
+  }
+  .box-details .content{
+    font-weight: 700;
+  }
+  .box-details button,
+  .box-details .cart{
+    border: 1px solid #555;
+    outline: none;
+    background: #333;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .colors button,
+  .sizes button{
+    width: 35px;
+    height: 35px;
+  }
+  .box-details p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+  }
+  .box-details h3{
+    color: crimson;
+  }
+  .box-details .thumb{
+    display: flex;
+    cursor: pointer;
+  }
+  .box-details .thumb img{
+    width: 50px;
+    height: 45px;
+    display: block;
+    object-fit: cover;
+    margin: 20px;
+    overflow: hidden;
+  }
+  .box-details .cart{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+  }
